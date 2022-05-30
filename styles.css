@@ -1,0 +1,136 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+* {   
+      font-family: 'Merriweather Sans', sans-serif;
+      box-sizing: border-box;
+      margin: 0;
+      
+  }
+
+body {
+    background-color: var(--body-bg-color);
+    font-size: 0.82em;
+    padding: 40px;
+    display: flex;
+    gap: 4rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main {
+    width: 100vw;
+    gap: 2rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#projects-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#projects-area {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+#profile, #socials, #tecnologies, #experience, #projects-area-title, #project{
+    background: var(--bg-cards);
+    color: var(--text-color);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#projects-area-title, #project {
+    width: 100%;
+}
+
+#project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 186px;
+}
+
+#project-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#project-descrption {
+    display: flex;
+}
+
+#project-footer {
+    display: flex;
+    align-items: center;
+}
+
+#profile-pic {
+    width: 128px;
+    border-radius: 50%;
+    border: 2px solid #00FF00;
+    margin: 20px;
+}
+ul {
+    padding:0;
+}
+
+#profile {
+    text-align: center;
+}
+
+#socials li {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+#socials img {
+    margin-right: 10px;
+}
+
+#socials a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+#techs {
+    background-color: var(--bg-techs);
+    width: 95px;
+    height: 24px;
+    border-radius: 30px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tech-content {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+
+
+ 
